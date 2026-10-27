@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="salidaMeta">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="puerto">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sprint">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="anonimo">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ruta">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <name>Etapa 12: Vera a Calar Alto</name>
+    <Placemark>
+      <name>Salida: Vera</name>
+      <description>Salida de la etapa 12 (km 0)</description>
+      <styleUrl>#salidaMeta</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-1.8618,37.2439,114</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto cat. 3 (km 16.0)</name>
+      <description>Puerto de montaña de categoría 3, altitud 471 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.0393,37.3422,471</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto cat. 3 (km 57.5)</name>
+      <description>Puerto de montaña de categoría 3, altitud 668 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.2100,37.2616,668</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto cat. 2 (km 86.4)</name>
+      <description>Puerto de montaña de categoría 2, altitud 1239 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.3400,37.2100,1239</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto cat. 1 (km 135.4)</name>
+      <description>Puerto de montaña de categoría 1, altitud 1789 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.4029,37.1939,1789</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto cat. 1 (km 166.6)</name>
+      <description>Puerto de montaña de categoría 1, altitud 2153 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.5169,37.2133,2153</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprint intermedio (km 123.7)</name>
+      <description>Sprint intermedio</description>
+      <styleUrl>#sprint</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.4029,37.1939,947</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprint bonificado (km 123.7)</name>
+      <description>Sprint bonificado</description>
+      <styleUrl>#sprint</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.4029,37.1939,947</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 8.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-1.8933,37.2424,293</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 22.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-1.9483,37.2399,500</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 35.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-1.9994,37.2375,561</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 50.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.0584,37.2347,632</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 65.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.1174,37.2320,816</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 80.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.1764,37.2292,1112</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 100.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.2550,37.2255,1133</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 115.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.3140,37.2228,1015</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 130.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.3730,37.2200,1400</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 150.0</name>
+      <description>Punto intermedio de la ruta</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.4516,37.2164,1959</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta: Calar Alto</name>
+      <description>Meta de la etapa 12 (km 166.6)</description>
+      <styleUrl>#salidaMeta</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-2.5169,37.2133,2153</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de la etapa 12</name>
+      <styleUrl>#ruta</styleUrl>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-1.8618,37.2439,114
+-1.8933,37.2424,293
+-1.9483,37.2399,500
+-1.9994,37.2375,561
+-2.0584,37.2347,632
+-2.1174,37.2320,816
+-2.1764,37.2292,1112
+-2.2550,37.2255,1133
+-2.3140,37.2228,1015
+-2.3730,37.2200,1400
+-2.4516,37.2164,1959
+-2.5169,37.2133,2153</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

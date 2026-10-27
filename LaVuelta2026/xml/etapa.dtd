@@ -1,0 +1,73 @@
+<!ELEMENT etapas (etapa+)>
+
+<!ELEMENT etapa (nombre, longitud, fecha, tiempoGanador, velocidadMedia,
+                  desnivel, inicio, fin, tipo, localidades, galeria,
+                  videos, sonidos, lugarSalida, lugarEntrada, hitos,
+                  puntosAnonimos, primerosEtapa, primerosGeneral,
+                  primerosEquipos)>
+<!ATTLIST etapa numero CDATA #REQUIRED>
+
+<!-- Datos generales de la etapa -->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempoGanador (#PCDATA)>
+<!ELEMENT velocidadMedia (#PCDATA)>
+<!ELEMENT desnivel (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT fin (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+
+<!-- Referencias/bibliografía: mínimo 3 -->
+<!ELEMENT localidades (localidad, localidad, localidad, localidad*)>
+<!ELEMENT localidad (#PCDATA)>
+<!ATTLIST localidad nombre CDATA #REQUIRED>
+
+<!-- Galería de fotos: mínimo 1, máximo 5 -->
+<!ELEMENT galeria (fotografia, fotografia?, fotografia?, fotografia?, fotografia?)>
+<!ELEMENT fotografia (#PCDATA)>
+
+<!-- Galería de vídeos: mínimo 1, máximo 3 -->
+<!ELEMENT videos (video, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+
+<!-- Galería de podcasts: mínimo 1, máximo 3 -->
+<!ELEMENT sonidos (sonido, sonido?, sonido?)>
+<!ELEMENT sonido (#PCDATA)>
+
+<!-- Coordenadas de salida y llegada -->
+<!ELEMENT lugarSalida (longitud, latitud, altitud)>
+<!ELEMENT lugarEntrada (longitud, latitud, altitud)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+
+<!-- Hitos: puertos de montaña, sprint intermedio, sprint bonificado -->
+<!ELEMENT hitos (puertosMontana, sprintIntermedio, sprintBonificado)>
+
+<!ELEMENT puertosMontana (puertoMontana+)>
+<!ELEMENT puertoMontana (longitud, latitud, altitud, distancia)>
+<!ATTLIST puertoMontana categoria CDATA #REQUIRED>
+
+<!ELEMENT sprintIntermedio (longitud, latitud, altitud, distancia)>
+<!ELEMENT sprintBonificado (longitud, latitud, altitud, distancia)>
+<!ELEMENT distancia (#PCDATA)>
+
+<!-- Puntos anónimos: número variable de puntos -->
+<!ELEMENT puntosAnonimos (puntoAnonimo+)>
+<!ELEMENT puntoAnonimo (longitud, latitud, altitud, distancia)>
+
+<!-- Clasificaciones -->
+<!ELEMENT primerosEtapa (primero, segundo, tercero)>
+<!ELEMENT primerosGeneral (primero, segundo, tercero)>
+<!ELEMENT primerosEquipos (primero, segundo, tercero)>
+
+<!ELEMENT primero EMPTY>
+<!ATTLIST primero nombre CDATA #REQUIRED>
+
+<!ELEMENT segundo (diferenciaTiempo)>
+<!ATTLIST segundo nombre CDATA #REQUIRED>
+
+<!ELEMENT tercero (diferenciaTiempo)>
+<!ATTLIST tercero nombre CDATA #REQUIRED>
+
+<!ELEMENT diferenciaTiempo (#PCDATA)>

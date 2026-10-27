@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapas xmlns="http://www.uniovi.es"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+    <etapa numero="12">
+        <nombre>Vera a Calar Alto</nombre>
+        <longitud>166.6</longitud>
+        <fecha>2026-09-03</fecha>
+        <tiempoGanador>PT4H29M53S</tiempoGanador>
+        <velocidadMedia>37,04 kmh</velocidadMedia>
+        <desnivel>4568 m</desnivel>
+        <inicio>Vera</inicio>
+        <fin>Calar Alto</fin>
+        <tipo>Montaña</tipo>
+        <localidades>
+            <localidad nombre ="Vera">https://es.wikipedia.org/wiki/Vera_(Almer%C3%ADa)</localidad>
+            <localidad nombre ="Albanchez">https://es.wikipedia.org/wiki/Alb%C3%A1nchez</localidad>
+            <localidad nombre ="Almanzora">https://es.wikipedia.org/wiki/Almanzora</localidad>
+            <localidad nombre ="Cobdar">https://es.wikipedia.org/wiki/C%C3%B3bdar</localidad>
+            <localidad nombre ="Chercos">https://es.wikipedia.org/wiki/Chercos</localidad>
+            <localidad nombre ="Velefique">https://es.wikipedia.org/wiki/Velefique</localidad>
+            <localidad nombre ="Bacares">https://es.wikipedia.org/wiki/Bacares</localidad>
+        </localidades>
+        <galeria>
+            <fotografia>../multimedia/Bacares.jpg</fotografia>
+            <fotografia>../multimedia/Vera1.jpg</fotografia>
+            <fotografia>../multimedia/Vera2.jpg</fotografia>
+        </galeria>
+        <videos>
+            <video>p</video>
+        </videos>
+        <sonidos>
+            <sonido>p</sonido>
+        </sonidos>
+        <lugarSalida>
+            <longitud>-1.8618</longitud>
+            <latitud>37.2439</latitud>
+            <altitud>114</altitud>
+        </lugarSalida>
+        <lugarEntrada>
+            <longitud>-2.5169</longitud>
+            <latitud>37.2133</latitud>
+            <altitud>2153</altitud>
+        </lugarEntrada>
+        <hitos>
+            <puertosMontana>
+                <puertoMontana categoria="3">
+                    <longitud>-2.0393</longitud>
+                    <latitud>37.3422</latitud>
+                    <altitud>471</altitud>
+                    <distancia>16</distancia>
+                </puertoMontana>
+                <puertoMontana categoria="3">
+                    <longitud>-2.2100</longitud>
+                    <latitud>37.2616</latitud>
+                    <altitud>668</altitud>
+                    <distancia>57.5</distancia>
+                </puertoMontana>
+                <puertoMontana categoria="2">
+                    <longitud>-2.3400</longitud>
+                    <latitud>37.2100</latitud>
+                    <altitud>1239</altitud>
+                    <distancia>86.4</distancia>
+                </puertoMontana>
+                <puertoMontana categoria="1">
+                    <longitud>-2.4029</longitud>
+                    <latitud>37.1939</latitud>
+                    <altitud>1789</altitud>
+                    <distancia>135.4</distancia>
+                </puertoMontana>
+                <puertoMontana categoria="1">
+                    <longitud>-2.5169</longitud>
+                    <latitud>37.2133</latitud>
+                    <altitud>2153</altitud>
+                    <distancia>166.6</distancia>
+                </puertoMontana>
+            </puertosMontana>
+            <sprintIntermedio>
+                <longitud>-2.4029</longitud>
+                <latitud>37.1939</latitud>
+                <altitud>947</altitud>
+                <distancia>123.7</distancia>
+            </sprintIntermedio>
+            <sprintBonificado>
+                <longitud>-2.4029</longitud>
+                <latitud>37.1939</latitud>
+                <altitud>947</altitud>
+                <distancia>123.7</distancia>
+            </sprintBonificado>
+        </hitos>
+        <puntosAnonimos>
+            <puntoAnonimo>
+                <longitud>-1.8933</longitud>
+                <latitud>37.2424</latitud>
+                <altitud>293</altitud>
+                <distancia>8</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-1.9483</longitud>
+                <latitud>37.2399</latitud>
+                <altitud>500</altitud>
+                <distancia>22</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-1.9994</longitud>
+                <latitud>37.2375</latitud>
+                <altitud>561</altitud>
+                <distancia>35</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-2.0584</longitud>
+                <latitud>37.2347</latitud>
+                <altitud>632</altitud>
+                <distancia>50</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-2.1174</longitud>
+                <latitud>37.2320</latitud>
+                <altitud>816</altitud>
+                <distancia>65</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-2.1764</longitud>
+                <latitud>37.2292</latitud>
+                <altitud>1112</altitud>
+                <distancia>80</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-2.2550</longitud>
+                <latitud>37.2255</latitud>
+                <altitud>1133</altitud>
+                <distancia>100</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-2.3140</longitud>
+                <latitud>37.2228</latitud>
+                <altitud>1015</altitud>
+                <distancia>115</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-2.3730</longitud>
+                <latitud>37.2200</latitud>
+                <altitud>1400</altitud>
+                <distancia>130</distancia>
+            </puntoAnonimo>
+            <puntoAnonimo>
+                <longitud>-2.4516</longitud>
+                <latitud>37.2164</latitud>
+                <altitud>1959</altitud>
+                <distancia>150</distancia>
+            </puntoAnonimo>
+        </puntosAnonimos>
+        <primerosEtapa>
+            <primero nombre="Jakob Omrzel"></primero>
+            <segundo nombre="Urko Berrade">
+                <diferenciaTiempo>PT1M56S</diferenciaTiempo>
+            </segundo>
+            <tercero nombre="Santiago Buitrago">
+                <diferenciaTiempo>PT2M13S</diferenciaTiempo>
+            </tercero>
+        </primerosEtapa>
+        <primerosGeneral>
+            <primero nombre="Enric Mas"></primero>
+            <segundo nombre="Primoz Roglic">
+                <diferenciaTiempo>PT1M45S</diferenciaTiempo>
+            </segundo>
+            <tercero nombre="Felix Gall">
+                <diferenciaTiempo>PT2M6S</diferenciaTiempo>
+            </tercero>
+        </primerosGeneral>
+        <primerosEquipos>
+            <primero nombre="Decathlon CMA CGM Team"></primero>
+            <segundo nombre="Bahrain Victorious">
+                <diferenciaTiempo>PT1H6M11S</diferenciaTiempo>
+            </segundo>
+            <tercero nombre="Netcompany-Ineos Cycling Team">
+                <diferenciaTiempo>PT1H6M31S</diferenciaTiempo>
+            </tercero>
+        </primerosEquipos>
+
+    </etapa>
+</etapas>

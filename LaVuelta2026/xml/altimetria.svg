@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1300" height="720" viewBox="0 0 1300 720">
+  <rect x="0" y="0" width="1300" height="720" fill="white" stroke-width="0" stroke="none" />
+  <text x="95.0" y="34.0" font-family="Verdana, Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222" style="none">Etapa 12: Vera a Calar Alto</text>
+  <text x="95.0" y="58.0" font-family="Verdana, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#222222" style="none">Distancia: 166.6 km   ·   Desnivel positivo: 4568 m</text>
+  <line x1="95.0" y1="640.0" x2="1240.0" y2="640.0" stroke="#d0d0d0" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="87.0" y="644.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#222222" style="none">0</text>
+  <line x1="95.0" y1="584.0" x2="1240.0" y2="584.0" stroke="#d0d0d0" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="87.0" y="588.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#222222" style="none">500</text>
+  <line x1="95.0" y1="528.0" x2="1240.0" y2="528.0" stroke="#d0d0d0" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="87.0" y="532.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#222222" style="none">1000</text>
+  <line x1="95.0" y1="472.0" x2="1240.0" y2="472.0" stroke="#d0d0d0" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="87.0" y="476.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#222222" style="none">1500</text>
+  <line x1="95.0" y1="416.0" x2="1240.0" y2="416.0" stroke="#d0d0d0" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="87.0" y="420.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#222222" style="none">2000</text>
+  <line x1="95.0" y1="360.0" x2="1240.0" y2="360.0" stroke="#d0d0d0" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="87.0" y="364.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#222222" style="none">2500</text>
+  <text x="28.0" y="500.0" font-family="Verdana, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#222222" style="none" transform="rotate(-90 28.0 500.0)">Altitud (m)</text>
+  <polyline points="95.0,640.0 95.0,627.2 150.0,607.2 205.0,587.2 246.2,584.0 335.5,577.2 438.6,569.2 490.2,565.2 541.7,548.6 644.8,515.5 688.8,501.2 782.3,513.1 885.4,526.3 945.2,533.9 988.5,483.2 1025.6,439.6 1125.9,420.6 1240.0,398.9 1240.0,640.0 95.0,640.0" stroke="#9c2a14" stroke-width="2" fill="#e8452c" stroke-linejoin="round" />
+  <line x1="95.0" y1="354.0" x2="95.0" y2="627.2" stroke="#e03030" stroke-width="1.5" />
+  <circle cx="95.0" cy="627.2" r="6" fill="#e03030" stroke="white" stroke-width="2" />
+  <text x="99.0" y="348.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222" style="none" transform="rotate(-90 99.0 348.0)">Salida: Vera / 114 m</text>
+  <line x1="205.0" y1="354.0" x2="205.0" y2="587.2" stroke="#2e9e44" stroke-width="1.5" />
+  <circle cx="205.0" cy="587.2" r="6" fill="#2e9e44" stroke="white" stroke-width="2" />
+  <text x="209.0" y="348.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222" style="none" transform="rotate(-90 209.0 348.0)">Puerto cat. 3 / 471 m</text>
+  <line x1="490.2" y1="354.0" x2="490.2" y2="565.2" stroke="#2e9e44" stroke-width="1.5" />
+  <circle cx="490.2" cy="565.2" r="6" fill="#2e9e44" stroke="white" stroke-width="2" />
+  <text x="494.2" y="348.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222" style="none" transform="rotate(-90 494.2 348.0)">Puerto cat. 3 / 668 m</text>
+  <line x1="688.8" y1="354.0" x2="688.8" y2="501.2" stroke="#2e9e44" stroke-width="1.5" />
+  <circle cx="688.8" cy="501.2" r="6" fill="#2e9e44" stroke="white" stroke-width="2" />
+  <text x="692.8" y="348.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222" style="none" transform="rotate(-90 692.8 348.0)">Puerto cat. 2 / 1239 m</text>
+  <line x1="945.2" y1="354.0" x2="945.2" y2="533.9" stroke="#2a7fd4" stroke-width="1.5" />
+  <circle cx="945.2" cy="533.9" r="6" fill="#2a7fd4" stroke="white" stroke-width="2" />
+  <text x="949.2" y="348.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222" style="none" transform="rotate(-90 949.2 348.0)">Sprint intermedio + Sprint bonificado / 947 m</text>
+  <line x1="1025.6" y1="354.0" x2="1025.6" y2="439.6" stroke="#2e9e44" stroke-width="1.5" />
+  <circle cx="1025.6" cy="439.6" r="6" fill="#2e9e44" stroke="white" stroke-width="2" />
+  <text x="1029.6" y="348.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222" style="none" transform="rotate(-90 1029.6 348.0)">Puerto cat. 1 / 1789 m</text>
+  <line x1="1240.0" y1="354.0" x2="1240.0" y2="398.9" stroke="#e03030" stroke-width="1.5" />
+  <circle cx="1240.0" cy="398.9" r="6" fill="#e03030" stroke="white" stroke-width="2" />
+  <text x="1244.0" y="348.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222222" style="none" transform="rotate(-90 1244.0 348.0)">Meta: Calar Alto + Puerto cat. 1 / 2153 m</text>
+  <line x1="95.0" y1="640.0" x2="1240.0" y2="640.0" stroke="#222222" stroke-width="2" />
+  <line x1="95.0" y1="360.0" x2="95.0" y2="640.0" stroke="#222222" stroke-width="2" />
+  <line x1="95.0" y1="640.0" x2="95.0" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="95.0" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">0</text>
+  <line x1="232.5" y1="640.0" x2="232.5" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="232.5" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">20</text>
+  <line x1="369.9" y1="640.0" x2="369.9" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="369.9" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">40</text>
+  <line x1="507.4" y1="640.0" x2="507.4" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="507.4" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">60</text>
+  <line x1="644.8" y1="640.0" x2="644.8" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="644.8" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">80</text>
+  <line x1="782.3" y1="640.0" x2="782.3" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="782.3" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">100</text>
+  <line x1="919.7" y1="640.0" x2="919.7" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="919.7" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">120</text>
+  <line x1="1057.2" y1="640.0" x2="1057.2" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="1057.2" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">140</text>
+  <line x1="1240.0" y1="640.0" x2="1240.0" y2="646.0" stroke="#222222" stroke-width="1.5" />
+  <text x="1240.0" y="662.0" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222" style="none">166.6</text>
+  <text x="667.5" y="690.0" font-family="Verdana, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#222222" style="none">Distancia (km)</text>
+</svg>
