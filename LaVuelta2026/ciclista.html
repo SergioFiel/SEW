@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Ciclista</title>
+
+    <meta name="author" content="Sergio Fiel Sanchez" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <!--Favicon del proyecto-->
+    <link rel="icon" href="multimedia/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a title="Página de inicio del proyecto" href="index.html">Inicio</a>
+            <a title="Información sobre el ciclista Jakob Omrzel" href="ciclista.html" aria-current="page">Ciclista</a>
+            <a title="Información sobre el equipo Bahrain Victorious" href="equipo.html">Equipo</a>
+            <a title="Información sobre la etapa Vera - Calar Alto" href="etapa.html">Etapa</a>
+            <a title="Información meteorológica de la etapa" href="meteorologia.html">Meteorología</a>
+            <a title="Clasificaciones de La Vuelta 2026" href="clasificaciones.html">Clasificaciones</a>
+            <a title="Juego de preguntas sobre la etapa" href="juegos.html">Juegos</a>
+            <a title="Ayuda sobre el uso del proyecto" href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <nav aria-label="migas">
+        <ol>
+            <li><a title="Página de inicio del proyecto" href="index.html">Inicio</a></li>
+            <li>&gt;&gt;</li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+
+    <main>
+        <h2>Jakob Omrzel</h2>
+
+        <section>
+            <h3>Datos personales</h3>
+            <ul>
+                <li>Jakob Omrzel</li>
+                <li>21/03/2006</li>
+                <li>Eslovenia</li>
+                <li>BAHRAIN VICTORIOUS</li>
+                <li>76</li>
+            </ul>
+            <picture>
+                <source srcset="multimedia/JackobOmrzelPequeno.png" media="(max-width: 768px)" width="107" height="152" />
+                <source srcset="multimedia/JackobOmrzelMediano.png" media="(max-width: 1024px)" width="300" height="265" />
+                <img alt="Fotografía del ciclista Jakob Omrzel" src="multimedia/JackobOmrzel.png" width="300" height="455" />
+            </picture>
+        </section>
+
+        <section>
+            <h3>Datos equipos</h3>
+            <ol>
+                <li>Bahrain Victorious</li>
+                <li>Bahrain Victorious Development Team</li>
+                <li>Adria Mobil Juniors</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Temporada 2025</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" id="datos">Nombre del Datos</th>
+                        <th scope="col" id="resultado">Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="dato1">Nacional Eslov ruta</th>
+                        <td headers="resultado dato1">2º puesto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="dato2">Nacional Eslov contrarreloj</th>
+                        <td headers="resultado dato2">3º puesto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="dato3">Alps Tour, 5ª etapa</th>
+                        <td headers="resultado dato3">5º puesto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="dato4">Alps Tour, clasif general</th>
+                        <td headers="resultado dato4">6º puesto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="dato5">Alps Tour, 4ª etapa</th>
+                        <td headers="resultado dato5">8º puesto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="dato6">Eslov Tour, 5ª etapa</th>
+                        <td headers="resultado dato6">9º puesto</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Multimedia</h3>
+            <p>Equipo <a title="Página del equipo Bahrain Victorious en La Vuelta" href="https://www.lavuelta.es/es/equipo/TBV/bahrain-victorious">BAHRAIN VICTORIOUS</a> en la Vuelta Ciclista a España 2026.</p>
+            <video controls poster="multimedia/AlineacionEquipo.png">
+                <source src="multimedia/VideoPresentacionEquipo.mp4" type="video/mp4" />
+                <source src="multimedia/VideoPresentacionEquipo.webm" type="video/webm" />
+            </video>
+            <audio controls>
+                <source src="multimedia/audioEquipo.mp3" type="audio/mpeg" />
+                <source src="multimedia/audioEquipo.wav" type="audio/wav" />
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sergio Fiel Sanchez</p>
+        <address>
+            <a href="mailto:UO307157@uniovi.es">UO307157@uniovi.es</a>
+        </address>
+    </footer>
+</body>
+</html>

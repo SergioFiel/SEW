@@ -1,0 +1,116 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Sergio Fiel Sanchez */
+/*  Correo electrónico: UO307157@uniovi.es */
+/*  Grupo de laboratorio: 7                */
+/* ***************************************/
+
+/* Gama cromática
+   Color principal #004D3A
+     o Contraste de 8.51:1 con color secundario (AAA)
+     o Contraste de 9.89:1 con color blanco (AAA)
+   Color secundario #FFF30A
+     o Contraste de 8.51:1 con color principal (AAA)
+     o Contraste de 18.07:1 con color negro (AAA)
+*/
+
+/* Especificidad: 010 */
+:root {
+    --color-principal: #004D3A;
+    --color-secundario: #FFF30A;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/* Especificidad: 001 */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: var(--color-negro);
+    background-color: var(--color-blanco);
+}
+
+/* Especificidad: 001, 001, 001 */
+/* Las celdas th de la cabecera de la tabla heredan el color de thead */
+header, footer, thead {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}
+
+/* Especificidad: 001 */
+/* Enlaces fuera de header y footer (migas, contenido): evita los colores por defecto del navegador */
+a {
+    color: var(--color-principal); /* ADVERTENCIA: color de fondo heredado de body --color-blanco */
+}
+
+/* Especificidad: 002, 002 */
+footer a, header a {
+    color: var(--color-secundario); /* ADVERTENCIA: color-principal de fondo header y footer*/
+    text-decoration-line: none;
+}
+
+/* Especificidad: 001, 001, 001 */
+h2, h3, h4 {
+    color: var(--color-principal);
+    background-color: var(--color-blanco);
+}
+
+/* Especificidad: 002 */
+/* El subrayado ya se elimina en la regla header a */
+h1 a {
+    color: var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de header --color-principal */
+}
+
+/* Especificidad: 012 */
+nav a[aria-current="page"] {
+    color: var(--color-principal);
+    background-color: var(--color-secundario);
+    font-weight: bold;
+}
+
+/* Especificidad: 003 */
+/* Migas: lista ordenada hija directa del nav que sigue inmediatamente al header */
+header + nav > ol {
+    list-style: none;
+    font-size: 0.8em;
+}
+
+/* Especificidad: 004 */
+header + nav > ol > li {
+    display: inline;
+}
+
+/* Especificidad: 014 */
+/* Migas: último elemento de la lista (documento actual) */
+header + nav > ol > li:last-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 014, 014 */
+/* Datos personales: nombre (1º) y nacionalidad (3º) con letra más grande */
+section:has(picture) > ul > li:first-child,
+section:has(picture) > ul > li:nth-child(3) {
+    font-size: 1.2em;
+}
+
+/* Especificidad: 014, 014 */
+/* Datos personales: nombre (1º) y equipo (4º) en negrita */
+section:has(picture) > ul > li:first-child,
+section:has(picture) > ul > li:nth-child(4) {
+    font-weight: bold;
+}
+
+/* Especificidad: 001 */
+table {
+    border-collapse: collapse;
+}
+
+/* Especificidad: 001, 001 */
+th, td {
+    border: 0.1em solid var(--color-principal);
+    padding: 0.3em 0.6em;
+}
+

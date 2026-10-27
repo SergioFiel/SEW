@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Sergio Fiel Sanchez" />
+    <meta name="description" content="Documento juegos.html del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <!--Favicon del proyecto-->
+    <link rel="icon" href="multimedia/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a title="Página de inicio del proyecto" href="index.html">Inicio</a>
+            <a title="Información sobre el ciclista Jakob Omrzel" href="ciclista.html">Ciclista</a>
+            <a title="Información sobre el equipo Bahrain Victorious" href="equipo.html">Equipo</a>
+            <a title="Información sobre la etapa Vera - Calar Alto" href="etapa.html">Etapa</a>
+            <a title="Información meteorológica de la etapa" href="meteorologia.html">Meteorología</a>
+            <a title="Clasificaciones de La Vuelta 2026" href="clasificaciones.html">Clasificaciones</a>
+            <a title="Juego de preguntas sobre la etapa" href="juegos.html" aria-current="page">Juegos</a>
+            <a title="Ayuda sobre el uso del proyecto" href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <nav aria-label="migas">
+        <ol>
+            <li><a title="Página de inicio del proyecto" href="index.html">Inicio</a></li>
+            <li>&gt;&gt;</li>
+            <li>Juegos</li>
+        </ol>
+    </nav>
+
+    <main>
+        <h2>Juegos</h2>
+
+        <h3>¿Conoces la etapa?</h3>
+        <p>Pon a prueba lo que sabes sobre la etapa de La Vuelta 2026 estudiada en el proyecto. El juego consta de 10 preguntas sobre la información de la etapa: número, fecha, salida y llegada, tipo, hitos, dureza, longitud, desnivel y descripción. Puedes consultar los datos en el libro de ruta de La Vuelta y en la sección Etapa de este proyecto.</p>
+
+        <form>
+            <fieldset>
+                <legend>Vera a Calar Alto</legend>
+
+                <label for="numeroEtapa">1. ¿Qué número de etapa es?</label>
+                <input type="number" id="numeroEtapa" min="1" max="21" step="1" />
+
+                <label for="fechaEtapa">2. ¿En qué fecha se disputa la etapa?</label>
+                <input type="date" id="fechaEtapa" min="2026-08-22" max="2026-09-13" />
+
+                <label for="salidaEtapa">3. ¿Cuál es el lugar de salida de la etapa?</label>
+                <select id="salidaEtapa">
+                    <option value="">Seleccione una opción</option>
+                    <option>Mónaco</option>
+                    <option>Gruissan</option>
+                    <option>Andorra la Vieja</option>
+                    <option>Falset</option>
+                    <option>Alcossebre</option>
+                    <option>Vall d'Alba</option>
+                    <option>Puçol</option>
+                    <option>Villajoyosa</option>
+                    <option>Alcaraz</option>
+                    <option>Cartagena</option>
+                    <option>Vera</option>
+                    <option>Almuñécar</option>
+                    <option>Campo Base (Jaén)</option>
+                    <option>Palma del Río</option>
+                    <option>Cortegana</option>
+                    <option>Dos Hermanas</option>
+                    <option>El Puerto de Santa María</option>
+                    <option>Vélez-Málaga</option>
+                    <option>La Calahorra</option>
+                    <option>Granada</option>
+                </select>
+
+                <label for="llegadaEtapa">4. ¿Cuál es el lugar de llegada de la etapa?</label>
+                <select id="llegadaEtapa">
+                    <option value="">Seleccione una opción</option>
+                    <option>Mónaco</option>
+                    <option>Manosque</option>
+                    <option>Font-Romeu</option>
+                    <option>Andorra la Vieja</option>
+                    <option>Roquetes</option>
+                    <option>Castelló</option>
+                    <option>Aramón Valdelinares</option>
+                    <option>Xeraco</option>
+                    <option>Alto de Aitana</option>
+                    <option>Elche de la Sierra</option>
+                    <option>Lorca</option>
+                    <option>Calar Alto</option>
+                    <option>Loja</option>
+                    <option>Sierra de La Pandera</option>
+                    <option>Córdoba</option>
+                    <option>La Rábida</option>
+                    <option>Sevilla</option>
+                    <option>Jerez de la Frontera</option>
+                    <option>Peñas Blancas</option>
+                    <option>Collado del Alguacil</option>
+                    <option>Granada</option>
+                </select>
+
+                <fieldset>
+                    <legend>5. ¿Qué tipo de etapa es?</legend>
+                    <input type="radio" name="tipoEtapa" id="tipoLlana" value="Llana" />
+                    <label for="tipoLlana">Llana</label>
+                    <input type="radio" name="tipoEtapa" id="tipoMediaMontana" value="Media montaña" />
+                    <label for="tipoMediaMontana">Media montaña</label>
+                    <input type="radio" name="tipoEtapa" id="tipoMontana" value="Montaña" />
+                    <label for="tipoMontana">Montaña</label>
+                    <input type="radio" name="tipoEtapa" id="tipoCri" value="Contrarreloj individual" />
+                    <label for="tipoCri">Contrarreloj individual</label>
+                    <input type="radio" name="tipoEtapa" id="tipoCre" value="Contrarreloj por equipos" />
+                    <label for="tipoCre">Contrarreloj por equipos</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>6. ¿Qué hitos hay en la etapa?</legend>
+                    <input type="checkbox" name="hitosEtapa" id="hitoPuerto" value="Puerto de montaña" />
+                    <label for="hitoPuerto">Puerto de montaña</label>
+                    <input type="checkbox" name="hitosEtapa" id="hitoEspecial" value="Puerto categoría especial" />
+                    <label for="hitoEspecial">Puerto categoría especial</label>
+                    <input type="checkbox" name="hitosEtapa" id="hitoSprintIntermedio" value="Sprint intermedio" />
+                    <label for="hitoSprintIntermedio">Sprint intermedio</label>
+                    <input type="checkbox" name="hitosEtapa" id="hitoSprintBonificado" value="Sprint bonificado" />
+                    <label for="hitoSprintBonificado">Sprint bonificado</label>
+                    <input type="checkbox" name="hitosEtapa" id="hitoNinguno" value="Sin hitos" />
+                    <label for="hitoNinguno">Sin hitos</label>
+                </fieldset>
+
+                <label for="durezaEtapa">7. Valora la dureza de la etapa (1 = muy fácil, 10 = muy dura)</label>
+                <input type="range" id="durezaEtapa" min="1" max="10" step="1" value="5" />
+
+                <label for="longitudEtapa">8. ¿Cuál es la longitud de la etapa en kilómetros?</label>
+                <input type="number" id="longitudEtapa" min="0" step="0.1" />
+
+                <label for="desnivelEtapa">9. ¿Cuál es el desnivel acumulado de la etapa en metros?</label>
+                <input type="number" id="desnivelEtapa" min="0" step="1" />
+
+                <label for="descripcionEtapa">10. Describe brevemente la etapa</label>
+                <textarea id="descripcionEtapa" rows="5" cols="50"></textarea>
+
+                <label for="nombreParticipante">Nombre del participante</label>
+                <input type="text" id="nombreParticipante" />
+
+                <button type="submit">Enviar respuestas</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Sergio Fiel Sanchez</p>
+        <address>
+            <a href="mailto:UO307157@uniovi.es">UO307157@uniovi.es</a>
+        </address>
+    </footer>
+</body>
+</html>
